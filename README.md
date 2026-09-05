@@ -15,24 +15,16 @@ A Java-based desktop application to help students manage their daily routines, t
 - Java Development Kit (JDK) installed and available in your system's PATH.
 - Internet connection (only required for the first build to download the SQLite JDBC driver).
 
-## How to Build
-
-The project includes a convenient batch script for Windows to compile the source code and download dependencies.
-
-1. Open a command prompt or terminal in the project's root directory.
-2. Run the build script:
-   ```cmd
-   build.bat
-   ```
-   *Note: On the first run, the script will automatically download the `sqlite-jdbc.jar` driver into the `lib` folder.*
-
 ## How to Run
 
-Once the project is successfully built, you can run the application using the included run script:
+The project includes a convenient batch script for Windows to compile the source code, download dependencies, and start the application.
 
-```cmd
-run.bat
-```
+1. Open a command prompt or terminal in the project's root directory.
+2. Run the start script:
+   ```cmd
+   run.bat
+   ```
+   *Note: On the first run, the script will automatically download the `sqlite-jdbc.jar` driver into the `lib` folder.*
 
 ## Project Structure
 
@@ -45,5 +37,5 @@ run.bat
   - `utils/` - Utility classes (e.g., password hashing, validation)
 - `lib/` - Downloaded dependencies (SQLite JDBC driver)
 - `out/` - Compiled Java `.class` files
-- `build.bat` - Script to compile the project
-- `run.bat` - Script to execute the application
+- `run.bat` - Script to compile and execute the application
+
