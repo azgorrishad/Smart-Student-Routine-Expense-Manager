@@ -1,4 +1,4 @@
-Smart Student Routine and Expense Manager
+"Smart Student Routine and Expense Manager"
 A Java-based desktop application to help students manage their daily routines, track expenses, and stay within budget. Built with Java Swing for the user interface and SQLite for local data storage.
 
 Features
